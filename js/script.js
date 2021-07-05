@@ -11,3 +11,8 @@ if (inputValue=== ''){
   $('#list').append(li);
 }
 
+//------------------crosses out---------------//
+li.on('dblclick', function(){
+    li.toggleClass ('strike');
+});
+
